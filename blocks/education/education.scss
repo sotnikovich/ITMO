@@ -1,0 +1,159 @@
+.education {
+    padding: 40px 0;
+    box-sizing: border-box;
+    background-color: #009FAC;
+}
+
+@media screen and (min-width: 768px) {
+    .education {
+        padding: 60px 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .education {
+        padding: 80px 0;
+    }
+}
+
+.education__arrow {
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    background: center url(../../../images/arrow-down.svg);
+    display: inline-block;
+}
+
+.education__button {
+    margin: 0;
+    width: 50%;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+}
+
+.education__button_active {
+    width: 53%;
+    height: 103%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E0F0FF;
+    border-radius: 10px;
+    color: #000D26;
+}
+
+.education__buttons-container {
+    width: 540px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #E0F0FF;
+    box-sizing: border-box;
+}
+
+.education__container {
+    width: 1170px;
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px;
+    width: 1170px;
+    margin: 0 auto 35px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.education__img {
+    width: 445px;
+    height: 364px;
+}
+
+.education__img_visible {
+    z-index: 2;
+    opacity: 1;
+}
+
+.education__img_absolute {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s linear;
+    z-index: -1;
+}
+
+.education__img-container {
+    position: relative;
+}
+
+.education__link {
+    text-decoration: none;
+    color: #000D26;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.education__list-item {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.education__programs {
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 600;
+    color: #000D26;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.1px;
+}
+
+.education__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin: 30px 0px;
+    max-width: 920px;
+    margin: 0 auto 60px;
+}
+
+@media screen and (min-width: 425px) {
+    .education__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .education__text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+.education__text-container {
+    max-width: 635px;
+    margin-right: 29px;
+    color: #000D26;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.1px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}

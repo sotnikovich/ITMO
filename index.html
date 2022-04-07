@@ -1,14 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <link rel="stylesheet" href="style.scss" />
+    <title>ITMO Landing</title>
+    <link rel="stylesheet" href="pages/index.scss" />
   </head>
-  <body>
-    <div id="app"></div>
+  <body class="page">
+      <section class="education" id="education">
+          <h2 class="section__title section__title_color_white">образование</h2>
+          <p class="education__text">В образовательной деятельности НЦКР активно использует существующую в Университете ИТМО инфраструктуру и опыт реализации сетевых форм обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО «МГТУ «СТАНКИН», НовГУ), а также профильную компанию
+              ООО «НЦЭО» в области электронного и дистанционного образования. Реализуются образовательные программы различных форматов.</p>
+          <div class="education__container">
+              <div class="education__text-container">
+                  <h3 class="education__programs">Образовательные программы аспирантуры в области МО и КТ</h3>
+                  <ul class="education__list">
+                      <li class="education__list-item">Прикладные технологии искусственного интеллекта;</li>
+                      <li class="education__list-item">Машинное обучение и искусственный интеллект;</li>
+                      <li class="education__list-item">Биометрические информационные системы;</li>
+                      <li class="education__list-item">Речевые информационные системы;</li>
+                      <li class="education__list-item">Когнитивные вычисления и квантовый интеллект;</li>
+                      <li class="education__list-item">Большие данные и экстренные вычисления;</li>
+                      <li class="education__list-item">Семантические системы и инженерия знаний;</li>
+                      <li class="education__list-item">Технологии разработки компьютерных игр.</li>
+                  </ul>
+                  <a href="#" class="education__link">Подробнее
+                    <div class="education__arrow"></div>
+                  </a>
+              </div>
+              <div class="education__img-container">
+                  <img src="./images/Study/Magistr.png" alt="Магистры на выпускном" class="education__img">
+                  <img src="./images/Study/Aspirant.png" alt="Аспиранты за работой" class="education__img education__img_absolute">
+              </div>
+          </div>
+          <div class="education__buttons-container">
+              <p class="education__button" id="aspirante">Аспирантура</p>
+              <p class="education__button education__button_active" id="magistracy">Магистратура</p>
+          </div>
+      </section>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
